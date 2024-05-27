@@ -1,0 +1,30 @@
+/*Estilo general o global*/
+body{
+    font-family: Open Sans;
+    margin: 0;
+    text-align: justify;
+}
+
+.menu{
+    background-color: #f6fde8;
+    display: flex;
+    justify-content: center;
+}
+.articulo{
+    background-color: white;
+    width: 70%;
+    font-size: 1.3vw;
+    padding: 40px 25px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .articulo{
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .articulo{
+        font-size: 2.4vw;
+    }
+}
